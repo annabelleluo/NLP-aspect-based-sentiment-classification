@@ -22,3 +22,13 @@ Our model achieved the following results over 5 runs:
 - Mean Dev Acc.: 87.55 (0.96)
 - Mean Test Acc.: -1.00 (0.00)
 - Exec time: 2990.76 s. ( 598 per run )
+
+## Instruction for Running
+To train and evaluate the model, navigate to the "src" folder, and run the "tester.py" script using the command:
+```
+“python tester.py” 
+```
+There are 2 available optional arguments:
+-	n_runs: number of runs you want to execute. The default is 5.
+-	gpu: The ID of the GPU on which you want to run the model.
+
