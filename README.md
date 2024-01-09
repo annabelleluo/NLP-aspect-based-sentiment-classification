@@ -3,7 +3,7 @@
 The goal of this assignment is to implement a classifier that predicts opinion polarities (positive, negative or neutral) for given aspect terms in sentences. The classifier takes as input 3 elements: a sentence, an aspect term occurring in the sentence, and its aspect category. For each input triple, it produces a polarity label: positive, negative or neutral.
 
 ## Authors
-The project is done by  [Antoine Cloute](https://github.com/AntAI-Git), [Annabelle Luo](https://github.com/annabelleluo), [Xiaoyan Hong](https://github.com/EmmaHongW), Konstatina Tsilifoni.
+The project is done by  [Antoine Cloute](https://github.com/AntAI-Git), [Annabelle Luo](https://github.com/annabelleluo), [Konstantina Tsilifoni](https://github.com/KonstantinaTsili).
 
 ## Model Description
 ### 1. Data Augementation
@@ -17,8 +17,8 @@ Our model is based on a pre-trained BERT transformers model that encodes the inp
 
 ### 3. Results
 Our model achieved the following results over 5 runs:
-Dev accs: [88.56, 88.83, 86.97, 86.97, 86.44]
-Test accs: [-1, -1, -1, -1, -1]
-Mean Dev Acc.: 87.55 (0.96)
-Mean Test Acc.: -1.00 (0.00)
-Exec time: 2990.76 s. ( 598 per run )
+- Dev accs: [88.56, 88.83, 86.97, 86.97, 86.44]
+- Test accs: [-1, -1, -1, -1, -1]
+- Mean Dev Acc.: 87.55 (0.96)
+- Mean Test Acc.: -1.00 (0.00)
+- Exec time: 2990.76 s. ( 598 per run )
